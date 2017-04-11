@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\control.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\control.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_item_layout.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\spiner_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lunch.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\lunch.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spiner_window_layout.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\spiner_window_layout.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\layout\\test.xml"
+    }
+]

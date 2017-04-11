@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.njupt_tongda.liu"
+      android:versionCode="16"
+      android:versionName="2.0.2.16"
+      split="lib_slice_5_apk">
+</manifest>

@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">智能家居空气检测与净化系统</string>
+    <string name="title1">家居空气检测与天气预报</string>
+    <string name="title2">室内空气调节</string>
+    <string name="dulijinghua">独立净化器</string>
+    <string name="wei">危</string>
+    <string name="hai">害</string>
+    <string name="wu">物</string>
+    <string name="kong">控</string>
+    <string name="zhi">制</string>
+    <string name="duan">端</string>
+    <string name="xuexi">学习</string>
+
+
+    <string name="defalut_time">00:00</string>
+    <string name="defalut_data">2015年7月31日</string>
+    <string name="address">南京</string>
+    <string name="weather">晴   风力 : 3   温度 : 28℃   PM2.5  :  34</string>
+    <string name="shi">室</string>
+    <string name="nei">内</string>
+    <string name="wai">外</string>
+    <string name="zero">0</string>
+    <string name="zero_good">良好</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="PL2303HXD_Set_BaudRate">BaudRate</string>
+    <string name="PL2303HXD_OpenCOMPort">Open</string>
+    <string name="PL2303HXD_WriteData">Write</string>
+    <string name="PL2303HXD_ReadData">ReadData</string>
+    <string name="PL2303HXD_StartThread">Start</string>
+    <string name="PL2303HXD_StopThread">Stop</string>
+    <string name="PL2303HXD_LoopBack">LoopBack</string>
+    <string name="PL2303HXD_SetVIDPID">Connecting New VID PID</string>
+    <string name="PL2303HXD_SetDTR">SetDTR</string>
+    <string name="shinei">室 内</string>
+    <string name="shiwai">室 外</string>
+    <string name="pm25">PM2.5(μg/m3)</string>
+    <string name="pm2.5">PM2.5</string>
+    <string name="pm10">PM10(μg/m3)</string>
+    <string name="voc">VOC(ppm)</string>
+    <string name="VOC">VOC</string>
+    <string name="co2">CO2(ppm)</string>
+    <string name="CO2">CO2</string>
+    <string name="wendu">温 度(℃)</string>
+    <string name="shidu">湿 度</string>
+    <string name="kongqizhiliang">AQI</string>
+
+
+    <string name="fulizi">负离子</string>
+    <string name="title_activity_pl2303_hxdsimple_test">app</string>
+    <string name="jiashiqi">加湿器</string>
+    <string name="qingxiangji">喷香剂</string>
+    <string name="fengshan">换气扇</string>
+    <string name="duli_dingshi">定 时</string>
+    <string name="duli_denglizi">等离子</string>
+    <string name="duli_huafen">花 粉</string>
+    <string name="duli_zhineng_fengliang">智能/风量</string>
+    <string name="duli_kai_guan">开/关</string>
+    <string name="zidong">自 动</string>
+    <string name="shoudong">手 动</string>
+    <string name="shezhi">设 置</string>
+    <string name="jiazai">加载中...</string>
+
+</resources>

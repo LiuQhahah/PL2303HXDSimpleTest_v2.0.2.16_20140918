@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\libs\pl2303driver.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53b86f4dc42deb3adf9deee29054a81330854c48">
+        <dex dex="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\transforms\dex\debug\folders\1000\2\pl2303driver_1af864311f8d653cc0a2d58349a4d8096bdc8531\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1c136e6f6c055ff7d9237b6353bb8ab14ad6db71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\libs\Android_Location_V1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6aa98ac072ad580875266ae2a2effd9e64e0861">
+        <dex dex="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Location_V1.1.2_9c453ca3d17bc807e7c59c7568db7f0afdc9c842\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67dfe1d01470f76c3d38de5c4e24ca7ac0322eb6">
+        <dex dex="E:\workspace\Code_Android\PL2303HXDSimpleTest_v2.0.2.16_20140918\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9c9a2f407f9831588c326b6cccb249729a759351\classes.dex" />
+    </item>
+
+</items>

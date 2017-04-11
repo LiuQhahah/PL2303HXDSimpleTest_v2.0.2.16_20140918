@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="pm25">
+            <item>10</item>
+            <item>30</item>
+            <item>50</item>
+            <item>70</item>
+            <item>90</item>
+    </string-array>
+   <string-array name="choose1">
+    <item>10</item>
+    <item>20</item> 
+    <item>30</item>
+    <item>40</item>   
+   </string-array>
+
+    <string-array name="items">
+        <item>关</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+
+    </string-array>
+  <string-array name="voc">
+    <item>10</item>
+    <item>20 </item>
+    <item>30</item>
+    <item >40 </item>
+   </string-array>
+   <string-array name="choose3">
+    <item>20</item>
+    <item>30</item>
+    <item>40 </item> 
+    <item>50</item>  
+   </string-array>
+   <string-array name="co2">
+       <item>350~450</item>
+       <item>450~550</item>
+       <item>550~650</item>
+       <item>650~750</item>
+       <item>750~999</item>
+   </string-array>
+   
+   <string-array name="shidu">
+       <item>20~30</item>
+       <item>30~40</item>
+       <item>40~50</item>
+       <item>50~60</item>
+       <item>60~70</item>
+   </string-array>
+   <string-array name="choose6">
+       <item>周一</item>
+       <item>周二</item>
+       <item>周三</item>
+       <item>周四</item>
+       <item>周五</item>
+       <item>周六</item>
+       <item>周日</item>
+   </string-array>
+</resources>

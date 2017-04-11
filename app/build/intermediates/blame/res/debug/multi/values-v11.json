@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 63,
+                        "endOffset": 78
+                    }
+                }
+            }
+        ]
+    }
+]

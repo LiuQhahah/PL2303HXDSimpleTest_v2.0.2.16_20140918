@@ -1,0 +1,10 @@
+#Tue Apr 11 09:42:56 CST 2017
+renamed.2=classes2.dex
+renamed.1=classes3.dex
+renamed.0=classes.dex
+base.2=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Android_Location_V1.1.2_9c453ca3d17bc807e7c59c7568db7f0afdc9c842
+base.1=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\pl2303driver_1af864311f8d653cc0a2d58349a4d8096bdc8531
+base.0=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b
+file.2=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Android_Location_V1.1.2_9c453ca3d17bc807e7c59c7568db7f0afdc9c842\\classes.dex
+file.1=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\pl2303driver_1af864311f8d653cc0a2d58349a4d8096bdc8531\\classes.dex
+file.0=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b\\classes.dex

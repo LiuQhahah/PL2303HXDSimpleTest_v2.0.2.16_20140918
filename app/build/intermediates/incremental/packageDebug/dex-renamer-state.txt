@@ -1,0 +1,7 @@
+#Tue Apr 11 09:45:35 CST 2017
+base.0=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1c136e6f6c055ff7d9237b6353bb8ab14ad6db71
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9c9a2f407f9831588c326b6cccb249729a759351\\classes.dex
+base.1=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9c9a2f407f9831588c326b6cccb249729a759351
+file.0=E\:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1c136e6f6c055ff7d9237b6353bb8ab14ad6db71\\classes.dex

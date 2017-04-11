@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ui"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/title_bar"
+        android:layout_weight="1.3"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/title"
+            android:text="自动模式参数设置"
+            android:textColor="#ffc93b09"
+            android:textSize="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30px" />
+        <FrameLayout
+            android:id="@+id/fl_setting"
+            android:layout_width="match_parent"
+            android:layout_height="4px"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.5">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="设"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="定"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="阀"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="值"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg"
+            android:layout_weight="0">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+
+                    android:minHeight="40dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="PM2.5(μg/m3)"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_value_pm"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:minHeight="40dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:textSize="20sp"
+                        android:shadowColor="#cfd7796a"
+                        android:paddingLeft="35dp"
+                        android:layout_alignParentRight="true"
+                        android:hint="10" />
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown_pm"
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn1"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:text="VOC(ppm)       "
+                        android:textColor="#000000"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_value_voc"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="35dp"
+                        android:layout_alignParentRight="true"
+                        android:hint="10" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown_voc"
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+                <RelativeLayout
+
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="开发中...          "
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical">
+                    </TextView>
+
+                    <TextView
+
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_alignParentRight="true" />
+
+
+
+                    <ImageButton
+
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn6"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:text="开发中...          "
+                        android:textColor="#000000"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_value6"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentRight="true">
+                    </TextView>
+
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown6"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button"
+            android:orientation="vertical"
+            android:layout_weight="0.7">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="设"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="定"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="阀"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="值"
+                android:textSize="30px"
+
+                android:textColor="#ffafb0ff"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn2"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+
+                    android:minHeight="40dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_pre2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="CO2(ppm)       "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_value_co2"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:minHeight="40dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ff000000"
+                        android:textSize="20sp"
+                        android:shadowColor="#cfd7796a"
+                        android:paddingLeft="8dp"
+                        android:layout_alignParentRight="true"
+                        android:hint="350~450" />
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown_co2"
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn3"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:text="湿度(%)    "
+                        android:textColor="#000000"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_value_shidu"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:layout_alignParentRight="true"
+                        android:hint="20~30" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown_shidu"
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+
+                <RelativeLayout
+
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:text="开发中...          "
+                        android:textColor="#000000"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <TextView
+
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_alignParentRight="true" />
+
+
+
+                    <ImageButton
+
+                        android:layout_width="36dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/setting_choose">
+                <RelativeLayout
+                    android:id="@+id/ll_lowwarn8"
+                    android:layout_width="285px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="0dp"
+
+                    android:minHeight="40dp" >
+
+                    <TextView
+                        android:id="@+id/tv_pre8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:text="开发中...          "
+                        android:textColor="#000000"
+                        android:textSize="20sp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tv_value8"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/set_bg"
+                        android:textSize="20sp"
+                        android:textColor="#ff000000"
+                        android:paddingLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentRight="true">
+                    </TextView>
+
+
+                    <ImageButton
+                        android:id="@+id/bt_dropdown8"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/setting"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_weight="1">-->
+
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/ll_lowwarn2"-->
+                    <!--android:layout_width="285px"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:minHeight="40dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:layout_weight="1">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_pre2"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:text="CO2(ppm)       "-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:textSize="20sp" >-->
+                    <!--</TextView>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_value_co2"-->
+                        <!--android:layout_width="fill_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:minHeight="40dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_toRightOf="@+id/tv_pre2"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:background="@drawable/set_bg"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:textColor="#ff000000"-->
+                        <!--android:paddingLeft="8dp"-->
+                        <!--android:hint="750~999"-->
+                        <!--android:gravity="center_vertical">-->
+                    <!--</TextView>-->
+
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/bt_dropdown_co2"-->
+                        <!--android:layout_width="36dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="15dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:background="@drawable/setting" />-->
+                <!--</RelativeLayout>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/ll_lowwarn3"-->
+                    <!--android:layout_width="285px"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:minHeight="40dp"-->
+                   <!-->-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_pre3"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:text="湿度(%)"-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:layout_marginRight="65dp">-->
+                    <!--</TextView>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_value_shidu"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:minHeight="40dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:background="@drawable/set_bg"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:textColor="#ff000000"-->
+                        <!--android:paddingLeft="20dp"-->
+                        <!--android:layout_toRightOf="@+id/tv_pre3"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:hint="60~70"-->
+                        <!--android:gravity="center_vertical">-->
+
+
+
+
+                    <!--</TextView>-->
+
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/bt_dropdown_shidu"-->
+                        <!--android:layout_width="36dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="15dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:background="@drawable/setting"-->
+                        <!--android:layout_alignParentLeft="false" />-->
+                <!--</RelativeLayout>-->
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_weight="1">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/ll_lowwarn4"-->
+                    <!--android:layout_width="285px"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:minHeight="40dp"-->
+                    <!--android:layout_gravity="center">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_pre4"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:text="开发中...          "-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:textSize="20sp" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_value4"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_toRightOf="@+id/tv_pre4"-->
+                        <!--android:background="@drawable/set_bg"-->
+                        <!--android:minHeight="40dp"-->
+                        <!--android:paddingLeft="20dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:textColor="#ff000000"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:layout_alignParentRight="true" />-->
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/bt_dropdown4"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="15dp"-->
+                        <!--android:background="@drawable/setting" />-->
+                <!--</RelativeLayout>-->
+
+
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_weight="1">-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/ll_lowwarn5"-->
+                    <!--android:layout_width="285px"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:minHeight="40dp"-->
+                    <!-->-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_pre5"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:text="开发中...          "-->
+                        <!--android:textColor="#000000"-->
+                        <!--android:textSize="20sp" >-->
+                    <!--</TextView>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_value5"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:minHeight="40dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_toRightOf="@+id/tv_pre5"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:background="@drawable/set_bg"-->
+                        <!--android:textSize="20sp"-->
+                        <!--android:textColor="#ff000000"-->
+                        <!--android:gravity="left|center"-->
+                        <!--android:paddingLeft="15dp"-->
+                        <!--android:layout_alignParentRight="true">-->
+                    <!--</TextView>-->
+
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/bt_dropdown5"-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="15dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:background="@drawable/setting"/>-->
+                <!--</RelativeLayout>-->
+
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <Button
+                android:id="@+id/bt_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_button"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+</LinearLayout>

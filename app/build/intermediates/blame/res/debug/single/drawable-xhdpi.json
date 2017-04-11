@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_search.png",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\workspace\\Code_Android\\PL2303HXDSimpleTest_v2.0.2.16_20140918\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]
